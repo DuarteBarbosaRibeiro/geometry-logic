@@ -24,19 +24,19 @@ of the polygons, so point C doesn't border the union of the two
 polygons.
 
 ## Examples
-###2 Triangles
+### 2 Triangles
 Triangle 1: (0, 0), (5, 10), (10, 0)\
 Triangle 2: (5, 5), (10, 15), (15, 5)\
 Result: (7.5, 5), (10, 0), (0, 0), (5, 10), (6.25, 7.5), (10, 15), (15, 5)\
 ![result](https://github.com/DuarteBarbosaRibeiro/geometry-logic/blob/main/img/triangle.png?raw=true)\
 
-###2 Squares
+### 2 Squares
 Square 1: (0, 0), (0, 10), (10, 10), (10, 0)\
 Square 2: (5, 5), (5, 15), (15, 15), (15, 5)\
 Result: (10, 5), (10, 0), (0, 0), (0, 10), (5, 10), (5, 15), (15, 15), (15, 5)\
 ![result](https://github.com/DuarteBarbosaRibeiro/geometry-logic/blob/main/img/square.png?raw=true)\
 
-###"Weird shapes"
+### "Weird shapes"
 Weird Shape 1: (0, 3), (4, 6), (5, 1), (1, 0)\
 Weird Shape 2: (2, 6), (6, 5), (4, 3), (4, 0), (0, 1)\
 Result: (5, 1), (4, 0.75), (4, 0), (2.5, 0.375), (1, 0), (0.727273, 0.818182), (0, 1), (0.363636, 1.90909), (0, 3), (1.14286, 3.85714), (2, 6), (3.5, 5.625), (4, 6), (4.10526, 5.47368), (6, 5), (4.5, 3.5)\
